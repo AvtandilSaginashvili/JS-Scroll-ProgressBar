@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box !important;
+}
+
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+
+.topp {
+    position: fixed !important;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(222, 222, 222) !important;
+}
+
+.p1 {
+    font-family: fantasy;
+    font-size: 25px;
+    font-weight: 500;
+    color: coral;
+    text-align: center;
+    margin: 0;
+}
+
+.progress {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #6d6d6d !important;
+}
+
+.progress-bar {
+    position: relative;
+    width: 0%;
+    padding-left: 0%;
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(250,79,0,1) 25%, rgba(255,188,0,1) 50%, rgba(121,255,0,1) 75%, rgba(0,255,128,1) 100%) !important;
+    color: #fff !important;
+}
+
+
+.lorem {
+    font-family: fantasy;
+    font-weight: 400;
+    color: coral;
+    text-align: center;
+    margin: 0;
+    font-size: 16px;
+}
+
+.lorem1 {
+    color: black;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    margin: 0;
+}
+
+.p-lorem {
+    color: coral;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
+    opacity: 0.8;
+    font-size: 38px;
+    font-family: sans-serif;
+    font-weight: 400;
+    margin: 0;
+}
+
+.p-lorem2 {
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    text-shadow: 5px 4px 0px rgba(255,200,0,0.45);
+    color: rgba(164, 135, 32, 0.45) !important;
+}
+
+.around {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: rgb(255,0,0);
+    background: radial-gradient(circle, rgba(255,0,0,1) 0%, rgba(0,255,128,1) 100%);
+    box-shadow: 0 0 50px rgba(0,0,0,0.5);
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    animation: around 7s linear infinite;
+}
+
+.stick {
+    width: 50px;
+    height: 3px;
+    background-color: black;
+    margin: 0;
+    border-radius: 50px;
+}
+
+@keyframes around {
+    0% {
+        transform: rotate(0deg);
+        margin-left: 0;
+    }
+    100% {
+        transform: rotate(360deg);
+        margin-left: 100%;
+    }
+
+}
+
+.h1-title {
+    font-size: 80px;
+    font-weight: 700;
+    font-family: monospace;
+    color: cadetblue;
+    margin: 0;
+    margin-top: 120px;
+    text-align: center;
+}
+
+.copy {
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    text-align: center;
+    margin: 0;
+}
