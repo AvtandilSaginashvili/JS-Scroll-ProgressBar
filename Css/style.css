@@ -11,9 +11,9 @@ body {
 .topp {
     position: fixed !important;
     width: 100%;
-    padding: 10px;
+    padding: 1px;
     text-align: center;
-    background-color: rgb(222, 222, 222) !important;
+    background-color: transparent !important;
 }
 
 .progress {
@@ -21,7 +21,7 @@ body {
     top: 100%;
     left: 0;
     width: 100%;
-    background-color: rgb(222, 222, 222) !important;
+    background-color: transparent !important;
 }
 
 .progress-bar {
